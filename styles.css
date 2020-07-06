@@ -1,0 +1,109 @@
+
+.container {
+    font-family: 'Bangers', cursive;
+
+}
+.pic { 
+    background-image: url(./src/jurandcar.jpeg);
+    background-size: 100%;
+    padding: 8em;   
+    background-repeat: no-repeat;
+  
+    
+}
+
+.title {
+    padding: 1em;
+   color: rgba(53, 52, 52, 0.918);
+   display: flex;
+   flex-direction: column;
+   
+}
+.jure {
+    padding-bottom: 1em;
+}
+.cont2 {
+    padding-top: 4em;
+}
+
+
+.social {
+    display: flex;
+    justify-content: space-around;   
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  .social-network a.icoFacebook:hover {
+    background-color: rgba(53, 52, 52, 0.918);
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: rgba(53, 52, 52, 0.918);
+  }
+  .social-network a.icoTwitter:hover {
+    background-color: rgba(53, 52, 52, 0.918);
+  }
+  .social-network a.icoGithub:hover {
+    background-color: rgba(53, 52, 52, 0.918);
+  }
+
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i,
+  .social-network a.icoTwitter:hover i,
+  .social-network a.icoGithub:hover i {
+    color: #fff;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 1.5em auto ;
+    border-radius: 50%;
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.5em;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    transform: rotate(90deg);
+    transition: all 0.8s;
+  }
+  
+  .social-circle i {
+    color:  rgba(53, 52, 52, 0.918);
+    transition: all 0.8s;
+  }
+  
+ 
+  @media only screen and (max-width: 480px) {
+    .container {
+        border: none;
+    
+    }
+    .pic {
+      border: none;
+    }
+    .div {
+        border: none;
+    }
+    }
